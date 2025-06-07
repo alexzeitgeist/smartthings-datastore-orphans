@@ -1,0 +1,4 @@
+name: 'Datastore Debug Driver'
+packageKey: 'datastore-debug-driver'
+permissions:
+  discovery: {}

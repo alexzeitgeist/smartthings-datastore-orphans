@@ -1,0 +1,553 @@
+# Logs
+
+1. Newly installed driver. Running discovery the first time:
+
+2025-06-07T10:10:13.650171627Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Driver starting up - checking initial datastore state...
+2025-06-07T10:10:13.650425377Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DATASTORE DUMP =====
+2025-06-07T10:10:13.651646044Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Timestamp: 2025-06-07 10:10:13
+2025-06-07T10:10:13.672675169Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Devices: 0
+2025-06-07T10:10:13.674592502Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Fields: 0
+2025-06-07T10:10:13.676809502Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Driver Datastore:
+2025-06-07T10:10:13.677089461Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] =========================
+2025-06-07T10:10:13.678248877Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Context: Driver startup
+2025-06-07T10:10:13.742744752Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Driver startup complete
+2025-06-07T10:10:13.779940711Z DEBUG Datastore Debug Driver  driver device thread event handled
+2025-06-07T10:10:13.780210919Z TRACE Datastore Debug Driver  Received event with handler driver_lifecycle
+2025-06-07T10:10:13.781604836Z INFO Datastore Debug Driver  received driver startupState: {"hub_zigbee_id":"KG2XAAIIIII=","hub_node_id":1,"hub_ipv4":"192.168.100.50"}
+2025-06-07T10:10:13.792528669Z TRACE Datastore Debug Driver  Received event with handler discovery
+2025-06-07T10:10:13.854639836Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Discovery started
+2025-06-07T10:10:13.866966752Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Creating gateway device...
+2025-06-07T10:10:13.908747002Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Gateway created successfully
+2025-06-07T10:10:14.504433627Z TRACE Datastore Debug Driver  Received event with handler device_lifecycle
+2025-06-07T10:10:14.622789877Z INFO Datastore Debug Driver  <Device: 63114b3a-f1e2-47c8-82d6-ccb09eedf869 (IoT Solutions Gateway (Debug))> received lifecycle event: added
+2025-06-07T10:10:15.081648711Z TRACE Datastore Debug Driver  Received event with handler device_lifecycle
+2025-06-07T10:10:15.107417169Z INFO Datastore Debug Driver  <Device: 63114b3a-f1e2-47c8-82d6-ccb09eedf869 (IoT Solutions Gateway (Debug))> received lifecycle event: doConfigure
+2025-06-07T10:10:15.130480461Z TRACE Datastore Debug Driver  Found DeviceLifecycleDispatcher handler in datastore-debug-driver
+2025-06-07T10:10:15.130753002Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DEVICE ADDED =====
+2025-06-07T10:10:15.182878752Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device ID: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:10:15.183140502Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Label: IoT Solutions Gateway (Debug)
+2025-06-07T10:10:15.233253711Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device Network ID: test-gateway-001
+2025-06-07T10:10:15.233513502Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Parent ID: 50fc1e32-5dd1-4852-86c7-162d73bd5f44
+2025-06-07T10:10:15.262489586Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Profile ID: 10d18ffc-740a-3245-87da-99b57ee7ad68
+2025-06-07T10:10:15.262768961Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Added to DNI map: test-gateway-001
+2025-06-07T10:10:15.273078669Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DATASTORE DUMP =====
+2025-06-07T10:10:15.273334586Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Timestamp: 2025-06-07 10:10:14
+2025-06-07T10:10:15.348891002Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:10:15.349140669Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: IoT Solutions Gateway (Debug)
+2025-06-07T10:10:15.350933877Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: test-gateway-001
+2025-06-07T10:10:15.351253669Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 50fc1e32-5dd1-4852-86c7-162d73bd5f44
+2025-06-07T10:10:15.472980044Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Devices: 1
+2025-06-07T10:10:15.473230669Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Fields: 1
+2025-06-07T10:10:15.474377127Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Driver Datastore:
+2025-06-07T10:10:15.474643461Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   __devices_store: {63114b3a-f1e2-47c8-82d6-ccb09eedf869={__state_cache={}}}
+2025-06-07T10:10:15.696529461Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Checking for orphaned device entries:
+2025-06-07T10:10:15.696807503Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   No orphaned entries found
+2025-06-07T10:10:15.702689294Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] =========================
+2025-06-07T10:10:15.702948086Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Context: After device added
+2025-06-07T10:10:15.736619628Z DEBUG Datastore Debug Driver  IoT Solutions Gateway (Debug) device thread event handled
+2025-06-07T10:10:15.738397044Z DEBUG Datastore Debug Driver  <Device: 63114b3a-f1e2-47c8-82d6-ccb09eedf869 (IoT Solutions Gateway (Debug))> added callback did not fail, executing init handler
+2025-06-07T10:10:15.743410294Z TRACE Datastore Debug Driver  Found DeviceLifecycleDispatcher handler in datastore-debug-driver
+2025-06-07T10:10:15.745197378Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DEVICE INIT =====
+2025-06-07T10:10:15.747540336Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device ID: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:10:15.747821294Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Label: IoT Solutions Gateway (Debug)
+2025-06-07T10:10:15.748980461Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Checking persistent fields...
+2025-06-07T10:10:15.749227503Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device initialization completed
+2025-06-07T10:10:15.783924836Z TRACE Datastore Debug Driver  Found DeviceLifecycleDispatcher handler in datastore-debug-driver
+2025-06-07T10:10:15.784210253Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DEVICE INIT =====
+2025-06-07T10:10:15.785457878Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device ID: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:10:15.785724753Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Label: IoT Solutions Gateway (Debug)
+2025-06-07T10:10:15.786846169Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Checking persistent fields...
+2025-06-07T10:10:15.787437878Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device initialization completed
+2025-06-07T10:10:15.821019044Z DEBUG Datastore Debug Driver  IoT Solutions Gateway (Debug) device thread event handled
+2025-06-07T10:10:15.821304378Z DEBUG Datastore Debug Driver  <Device: 63114b3a-f1e2-47c8-82d6-ccb09eedf869 (IoT Solutions Gateway (Debug))> doConfigure callback did not fail, transitioning device to "PROVISIONED"
+2025-06-07T10:10:15.822756378Z DEBUG Datastore Debug Driver  IoT Solutions Gateway (Debug) device thread event handled
+2025-06-07T10:10:15.823016669Z DEBUG Datastore Debug Driver  IoT Solutions Gateway (Debug) device thread event handled
+2025-06-07T10:10:15.855543794Z DEBUG Datastore Debug Driver  IoT Solutions Gateway (Debug) device thread event handled
+2025-06-07T10:10:18.644920795Z TRACE Datastore Debug Driver  Received event with handler discovery
+2025-06-07T10:10:19.049615920Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Discovery completed after 3 iterations
+2025-06-07T10:10:19.049889586Z DEBUG Datastore Debug Driver  discovery device thread event handled
+
+2. Periodic (every 120s) datastore dump says:
+
+2025-06-07T10:11:13.691818259Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DATASTORE DUMP =====
+2025-06-07T10:11:13.699543509Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Timestamp: 2025-06-07 10:11:13
+2025-06-07T10:11:13.712132801Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:11:13.714474301Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: IoT Solutions Gateway (Debug)
+2025-06-07T10:11:13.719254676Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: test-gateway-001
+2025-06-07T10:11:13.719514009Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 50fc1e32-5dd1-4852-86c7-162d73bd5f44
+2025-06-07T10:11:13.720775259Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Devices: 1
+2025-06-07T10:11:13.721020426Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Fields: 1
+2025-06-07T10:11:13.722417468Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Driver Datastore:
+2025-06-07T10:11:13.722676343Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   __devices_store: {63114b3a-f1e2-47c8-82d6-ccb09eedf869={__state_cache={}}}
+2025-06-07T10:11:13.730221343Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Checking for orphaned device entries:
+2025-06-07T10:11:13.730473468Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   No orphaned entries found
+2025-06-07T10:11:13.731743759Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] =========================
+2025-06-07T10:11:13.732124343Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Context: Periodic check
+2025-06-07T10:11:13.733244968Z DEBUG Datastore Debug Driver  driver device thread event handled
+
+3. Adding 3 child devices by triggering "refresh" on gateway:
+
+2025-06-07T10:11:41.446960971Z TRACE Datastore Debug Driver  Received event with handler capability
+2025-06-07T10:11:41.462750763Z INFO Datastore Debug Driver  <Device: 63114b3a-f1e2-47c8-82d6-ccb09eedf869 (IoT Solutions Gateway (Debug))> received command: {"args":{},"capability":"refresh","command":"refresh","component":"main","named_args":{},"positional_args":{}}
+2025-06-07T10:11:41.467878763Z TRACE Datastore Debug Driver  Found CapabilityCommandDispatcher handler in datastore-debug-driver
+2025-06-07T10:11:41.469255388Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Refresh command received
+2025-06-07T10:11:41.469505679Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DATASTORE DUMP =====
+2025-06-07T10:11:41.470635929Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Timestamp: 2025-06-07 10:11:41
+2025-06-07T10:11:41.633936346Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:11:41.634196304Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: IoT Solutions Gateway (Debug)
+2025-06-07T10:11:41.635458929Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: test-gateway-001
+2025-06-07T10:11:41.635705804Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 50fc1e32-5dd1-4852-86c7-162d73bd5f44
+2025-06-07T10:11:41.636860304Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Devices: 1
+2025-06-07T10:11:41.637120054Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Fields: 1
+2025-06-07T10:11:41.638156471Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Driver Datastore:
+2025-06-07T10:11:41.638411013Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   __devices_store: {63114b3a-f1e2-47c8-82d6-ccb09eedf869={__state_cache={}}}
+2025-06-07T10:11:41.706132596Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Checking for orphaned device entries:
+2025-06-07T10:11:41.707921138Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   No orphaned entries found
+2025-06-07T10:11:41.710538554Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] =========================
+2025-06-07T10:11:41.710793471Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Context: Manual refresh command
+2025-06-07T10:11:41.722560804Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Creating child device for gateway
+2025-06-07T10:11:41.722842679Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Creating child device: child:test-gateway-001-1
+2025-06-07T10:11:41.740174263Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Child device creation requested: child:test-gateway-001-1
+2025-06-07T10:11:41.740457429Z DEBUG Datastore Debug Driver  IoT Solutions Gateway (Debug) device thread event handled
+2025-06-07T10:11:42.330256971Z TRACE Datastore Debug Driver  Received event with handler device_lifecycle
+2025-06-07T10:11:42.347673304Z INFO Datastore Debug Driver  <Device: 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88 (Test Child 1)> received lifecycle event: added
+2025-06-07T10:11:42.352665054Z TRACE Datastore Debug Driver  Received event with handler device_lifecycle
+2025-06-07T10:11:42.352923596Z INFO Datastore Debug Driver  <Device: 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88 (Test Child 1)> received lifecycle event: doConfigure
+2025-06-07T10:11:42.361141596Z TRACE Datastore Debug Driver  Found DeviceLifecycleDispatcher handler in datastore-debug-driver
+2025-06-07T10:11:42.363196263Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DEVICE ADDED =====
+2025-06-07T10:11:42.365713096Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device ID: 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88
+2025-06-07T10:11:42.365988388Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Label: Test Child 1
+2025-06-07T10:11:42.367436513Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device Network ID: a9efdd55-a63b-4c03-9985-9ce5811d505b
+2025-06-07T10:11:42.367689263Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Parent ID: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:11:42.368865263Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Profile ID: 95ae8a8e-2d39-3f03-8f96-b9f4ad95ff79
+2025-06-07T10:11:42.369488805Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Added to DNI map: a9efdd55-a63b-4c03-9985-9ce5811d505b
+2025-06-07T10:11:42.370690180Z INFO Datastore Debug Driver  <Device: 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88 (Test Child 1)> emitting event: {"attribute_id":"switch","capability_id":"switch","component_id":"main","state":{"value":"off"}}
+2025-06-07T10:11:42.393038930Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Set initial switch state to OFF for child device
+2025-06-07T10:11:42.393298055Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DATASTORE DUMP =====
+2025-06-07T10:11:42.394586888Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Timestamp: 2025-06-07 10:11:42
+2025-06-07T10:11:42.406081471Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:11:42.408540596Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: IoT Solutions Gateway (Debug)
+2025-06-07T10:11:42.409043471Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: test-gateway-001
+2025-06-07T10:11:42.410318096Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 50fc1e32-5dd1-4852-86c7-162d73bd5f44
+2025-06-07T10:11:42.410586596Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88
+2025-06-07T10:11:42.411786638Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: Test Child 1
+2025-06-07T10:11:42.412358846Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: a9efdd55-a63b-4c03-9985-9ce5811d505b
+2025-06-07T10:11:42.414387513Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:11:42.414662846Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Devices: 2
+2025-06-07T10:11:42.416774346Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Fields: 2
+2025-06-07T10:11:42.417056721Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Driver Datastore:
+2025-06-07T10:11:42.419108971Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   __devices_store: {63114b3a-f1e2-47c8-82d6-ccb09eedf869={__state_cache={}}, 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88={__state_cache={main={switch={switch={value="off"}}}}}}
+2025-06-07T10:11:42.425198180Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Checking for orphaned device entries:
+2025-06-07T10:11:42.425453263Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   No orphaned entries found
+2025-06-07T10:11:42.426714138Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] =========================
+2025-06-07T10:11:42.426955721Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Context: After device added
+2025-06-07T10:11:42.435615263Z DEBUG Datastore Debug Driver  Test Child 1 device thread event handled
+2025-06-07T10:11:42.435906013Z DEBUG Datastore Debug Driver  <Device: 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88 (Test Child 1)> added callback did not fail, executing init handler
+2025-06-07T10:11:42.437278055Z TRACE Datastore Debug Driver  Found DeviceLifecycleDispatcher handler in datastore-debug-driver
+2025-06-07T10:11:42.437525805Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DEVICE INIT =====
+2025-06-07T10:11:42.438657305Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device ID: 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88
+2025-06-07T10:11:42.438913263Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Label: Test Child 1
+2025-06-07T10:11:42.440322721Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Checking persistent fields...
+2025-06-07T10:11:42.440638680Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device initialization completed
+2025-06-07T10:11:42.455428846Z TRACE Datastore Debug Driver  Received event with handler device_lifecycle
+2025-06-07T10:11:42.457219471Z INFO Datastore Debug Driver  <Device: 63114b3a-f1e2-47c8-82d6-ccb09eedf869 (IoT Solutions Gateway (Debug))> received lifecycle event: infoChanged
+2025-06-07T10:11:42.460066846Z TRACE Datastore Debug Driver  Found DeviceLifecycleDispatcher handler in datastore-debug-driver
+2025-06-07T10:11:42.460346596Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DEVICE INIT =====
+2025-06-07T10:11:42.461521971Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device ID: 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88
+2025-06-07T10:11:42.462237430Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Label: Test Child 1
+2025-06-07T10:11:42.463682430Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Checking persistent fields...
+2025-06-07T10:11:42.464001013Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device initialization completed
+2025-06-07T10:11:42.472730263Z DEBUG Datastore Debug Driver  Test Child 1 device thread event handled
+2025-06-07T10:11:42.473021721Z DEBUG Datastore Debug Driver  <Device: 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88 (Test Child 1)> doConfigure callback did not fail, transitioning device to "PROVISIONED"
+2025-06-07T10:11:42.476577846Z TRACE Datastore Debug Driver  <Device: 63114b3a-f1e2-47c8-82d6-ccb09eedf869 (IoT Solutions Gateway (Debug))> received unhandled lifecycle event: infoChanged
+2025-06-07T10:11:42.476885471Z DEBUG Datastore Debug Driver  IoT Solutions Gateway (Debug) device thread event handled
+2025-06-07T10:11:42.478151263Z DEBUG Datastore Debug Driver  Test Child 1 device thread event handled
+2025-06-07T10:11:42.484588763Z DEBUG Datastore Debug Driver  Test Child 1 device thread event handled
+2025-06-07T10:11:42.495556805Z DEBUG Datastore Debug Driver  Test Child 1 device thread event handled
+2025-06-07T10:11:42.957496846Z TRACE Datastore Debug Driver  Received event with handler device_lifecycle
+2025-06-07T10:11:42.958065846Z INFO Datastore Debug Driver  <Device: 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88 (Test Child 1)> received lifecycle event: infoChanged
+2025-06-07T10:11:42.963957388Z TRACE Datastore Debug Driver  <Device: 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88 (Test Child 1)> received unhandled lifecycle event: infoChanged
+2025-06-07T10:11:42.964240180Z DEBUG Datastore Debug Driver  Test Child 1 device thread event handled
+
+2025-06-07T10:11:45.729913722Z TRACE Datastore Debug Driver  Received event with handler capability
+2025-06-07T10:11:45.730411597Z INFO Datastore Debug Driver  <Device: 63114b3a-f1e2-47c8-82d6-ccb09eedf869 (IoT Solutions Gateway (Debug))> received command: {"args":{},"capability":"refresh","command":"refresh","component":"main","named_args":{},"positional_args":{}}
+2025-06-07T10:11:45.738384763Z TRACE Datastore Debug Driver  Found CapabilityCommandDispatcher handler in datastore-debug-driver
+2025-06-07T10:11:45.738667847Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Refresh command received
+2025-06-07T10:11:45.739953972Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DATASTORE DUMP =====
+2025-06-07T10:11:45.740207680Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Timestamp: 2025-06-07 10:11:45
+2025-06-07T10:11:46.062802888Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:11:46.069175388Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: IoT Solutions Gateway (Debug)
+2025-06-07T10:11:46.069454138Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: test-gateway-001
+2025-06-07T10:11:46.070720055Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 50fc1e32-5dd1-4852-86c7-162d73bd5f44
+2025-06-07T10:11:46.070989805Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88
+2025-06-07T10:11:46.117336930Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: Test Child 1
+2025-06-07T10:11:46.117617638Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: a9efdd55-a63b-4c03-9985-9ce5811d505b
+2025-06-07T10:11:46.118948138Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:11:46.119195763Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Devices: 2
+2025-06-07T10:11:46.120347972Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Fields: 2
+2025-06-07T10:11:46.120961763Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Driver Datastore:
+2025-06-07T10:11:46.217801097Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   __devices_store: {63114b3a-f1e2-47c8-82d6-ccb09eedf869={__state_cache={}}, 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88={__state_cache={main={switch={switch={value="off"}}}}}}
+2025-06-07T10:11:46.351777513Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Checking for orphaned device entries:
+2025-06-07T10:11:46.353739805Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   No orphaned entries found
+2025-06-07T10:11:46.362767222Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] =========================
+2025-06-07T10:11:46.363028430Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Context: Manual refresh command
+2025-06-07T10:11:46.364293513Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Creating child device for gateway
+2025-06-07T10:11:46.364569430Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Creating child device: child:test-gateway-001-2
+2025-06-07T10:11:46.472773222Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Child device creation requested: child:test-gateway-001-2
+2025-06-07T10:11:46.476896138Z DEBUG Datastore Debug Driver  IoT Solutions Gateway (Debug) device thread event handled
+2025-06-07T10:11:47.178945097Z TRACE Datastore Debug Driver  Received event with handler device_lifecycle
+2025-06-07T10:11:47.252192763Z INFO Datastore Debug Driver  <Device: d08ce559-03ba-436e-bf69-73f8ce5c6e9d (Test Child 2)> received lifecycle event: added
+2025-06-07T10:11:47.262462680Z TRACE Datastore Debug Driver  Received event with handler device_lifecycle
+2025-06-07T10:11:47.264313180Z INFO Datastore Debug Driver  <Device: d08ce559-03ba-436e-bf69-73f8ce5c6e9d (Test Child 2)> received lifecycle event: doConfigure
+2025-06-07T10:11:47.267280805Z TRACE Datastore Debug Driver  Found DeviceLifecycleDispatcher handler in datastore-debug-driver
+2025-06-07T10:11:47.267591680Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DEVICE ADDED =====
+2025-06-07T10:11:47.269041513Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device ID: d08ce559-03ba-436e-bf69-73f8ce5c6e9d
+2025-06-07T10:11:47.269323763Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Label: Test Child 2
+2025-06-07T10:11:47.270463430Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device Network ID: 5909d94c-bc39-4323-a853-b24375c28424
+2025-06-07T10:11:47.270709013Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Parent ID: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:11:47.272937638Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Profile ID: 95ae8a8e-2d39-3f03-8f96-b9f4ad95ff79
+2025-06-07T10:11:47.273211847Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Added to DNI map: 5909d94c-bc39-4323-a853-b24375c28424
+2025-06-07T10:11:47.275696013Z INFO Datastore Debug Driver  <Device: d08ce559-03ba-436e-bf69-73f8ce5c6e9d (Test Child 2)> emitting event: {"attribute_id":"switch","capability_id":"switch","component_id":"main","state":{"value":"off"}}
+2025-06-07T10:11:47.297579888Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Set initial switch state to OFF for child device
+2025-06-07T10:11:47.297853388Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DATASTORE DUMP =====
+2025-06-07T10:11:47.299121513Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Timestamp: 2025-06-07 10:11:47
+2025-06-07T10:11:47.312875638Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:11:47.313184513Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: IoT Solutions Gateway (Debug)
+2025-06-07T10:11:47.314443513Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: test-gateway-001
+2025-06-07T10:11:47.314716597Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 50fc1e32-5dd1-4852-86c7-162d73bd5f44
+2025-06-07T10:11:47.315891263Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88
+2025-06-07T10:11:47.316519597Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: Test Child 1
+2025-06-07T10:11:47.317694097Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: a9efdd55-a63b-4c03-9985-9ce5811d505b
+2025-06-07T10:11:47.317965472Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:11:47.319388972Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: d08ce559-03ba-436e-bf69-73f8ce5c6e9d
+2025-06-07T10:11:47.319637263Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: Test Child 2
+2025-06-07T10:11:47.320763430Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: 5909d94c-bc39-4323-a853-b24375c28424
+2025-06-07T10:11:47.321037305Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:11:47.323178847Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Devices: 3
+2025-06-07T10:11:47.323452138Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Fields: 3
+2025-06-07T10:11:47.325500180Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Driver Datastore:
+2025-06-07T10:11:47.325827847Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   __devices_store: {63114b3a-f1e2-47c8-82d6-ccb09eedf869={__state_cache={}}, 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88={__state_cache={main={switch={switch={value="off"}}}}}, d08ce559-03ba-436e-bf69-73f8ce5c6e9d={__state_cache={main={switch={switch={value="off"}}}}}}
+2025-06-07T10:11:47.332585097Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Checking for orphaned device entries:
+2025-06-07T10:11:47.332861513Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   No orphaned entries found
+2025-06-07T10:11:47.334117472Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] =========================
+2025-06-07T10:11:47.334375888Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Context: After device added
+2025-06-07T10:11:47.342745930Z DEBUG Datastore Debug Driver  Test Child 2 device thread event handled
+2025-06-07T10:11:47.343040472Z DEBUG Datastore Debug Driver  <Device: d08ce559-03ba-436e-bf69-73f8ce5c6e9d (Test Child 2)> added callback did not fail, executing init handler
+2025-06-07T10:11:47.344354263Z TRACE Datastore Debug Driver  Found DeviceLifecycleDispatcher handler in datastore-debug-driver
+2025-06-07T10:11:47.344601180Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DEVICE INIT =====
+2025-06-07T10:11:47.345755638Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device ID: d08ce559-03ba-436e-bf69-73f8ce5c6e9d
+2025-06-07T10:11:47.345998138Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Label: Test Child 2
+2025-06-07T10:11:47.348263263Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Checking persistent fields...
+2025-06-07T10:11:47.348889180Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device initialization completed
+2025-06-07T10:11:47.357794680Z TRACE Datastore Debug Driver  Received event with handler device_lifecycle
+2025-06-07T10:11:47.358115972Z INFO Datastore Debug Driver  <Device: 63114b3a-f1e2-47c8-82d6-ccb09eedf869 (IoT Solutions Gateway (Debug))> received lifecycle event: infoChanged
+2025-06-07T10:11:47.365726638Z TRACE Datastore Debug Driver  Found DeviceLifecycleDispatcher handler in datastore-debug-driver
+2025-06-07T10:11:47.367499055Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DEVICE INIT =====
+2025-06-07T10:11:47.369781555Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device ID: d08ce559-03ba-436e-bf69-73f8ce5c6e9d
+2025-06-07T10:11:47.370086722Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Label: Test Child 2
+2025-06-07T10:11:47.371513305Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Checking persistent fields...
+2025-06-07T10:11:47.371768597Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device initialization completed
+2025-06-07T10:11:47.380681347Z DEBUG Datastore Debug Driver  Test Child 2 device thread event handled
+2025-06-07T10:11:47.385370472Z DEBUG Datastore Debug Driver  <Device: d08ce559-03ba-436e-bf69-73f8ce5c6e9d (Test Child 2)> doConfigure callback did not fail, transitioning device to "PROVISIONED"
+2025-06-07T10:11:47.385672555Z TRACE Datastore Debug Driver  <Device: 63114b3a-f1e2-47c8-82d6-ccb09eedf869 (IoT Solutions Gateway (Debug))> received unhandled lifecycle event: infoChanged
+2025-06-07T10:11:47.387053680Z DEBUG Datastore Debug Driver  IoT Solutions Gateway (Debug) device thread event handled
+2025-06-07T10:11:47.387331097Z DEBUG Datastore Debug Driver  Test Child 2 device thread event handled
+2025-06-07T10:11:47.392237680Z DEBUG Datastore Debug Driver  Test Child 2 device thread event handled
+2025-06-07T10:11:47.416141430Z DEBUG Datastore Debug Driver  Test Child 2 device thread event handled
+2025-06-07T10:11:47.843444513Z TRACE Datastore Debug Driver  Received event with handler device_lifecycle
+2025-06-07T10:11:47.843766597Z INFO Datastore Debug Driver  <Device: d08ce559-03ba-436e-bf69-73f8ce5c6e9d (Test Child 2)> received lifecycle event: infoChanged
+2025-06-07T10:11:47.846462180Z TRACE Datastore Debug Driver  <Device: d08ce559-03ba-436e-bf69-73f8ce5c6e9d (Test Child 2)> received unhandled lifecycle event: infoChanged
+2025-06-07T10:11:47.848536222Z DEBUG Datastore Debug Driver  Test Child 2 device thread event handled
+
+2025-06-07T10:11:49.687011389Z TRACE Datastore Debug Driver  Received event with handler capability
+2025-06-07T10:11:49.687270139Z INFO Datastore Debug Driver  <Device: 63114b3a-f1e2-47c8-82d6-ccb09eedf869 (IoT Solutions Gateway (Debug))> received command: {"args":{},"capability":"refresh","command":"refresh","component":"main","named_args":{},"positional_args":{}}
+2025-06-07T10:11:49.693584347Z TRACE Datastore Debug Driver  Found CapabilityCommandDispatcher handler in datastore-debug-driver
+2025-06-07T10:11:49.693843389Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Refresh command received
+2025-06-07T10:11:49.694996180Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DATASTORE DUMP =====
+2025-06-07T10:11:49.695266305Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Timestamp: 2025-06-07 10:11:49
+2025-06-07T10:11:49.712788805Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:11:49.713048097Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: IoT Solutions Gateway (Debug)
+2025-06-07T10:11:49.714644264Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: test-gateway-001
+2025-06-07T10:11:49.714900680Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 50fc1e32-5dd1-4852-86c7-162d73bd5f44
+2025-06-07T10:11:49.716004014Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88
+2025-06-07T10:11:49.734231264Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: Test Child 1
+2025-06-07T10:11:49.736086764Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: a9efdd55-a63b-4c03-9985-9ce5811d505b
+2025-06-07T10:11:49.738391180Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:11:49.738652597Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: d08ce559-03ba-436e-bf69-73f8ce5c6e9d
+2025-06-07T10:11:49.740110639Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: Test Child 2
+2025-06-07T10:11:49.740385597Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: 5909d94c-bc39-4323-a853-b24375c28424
+2025-06-07T10:11:49.741542264Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:11:49.741790639Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Devices: 3
+2025-06-07T10:11:49.748654139Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Fields: 3
+2025-06-07T10:11:49.752193555Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Driver Datastore:
+2025-06-07T10:11:49.757408639Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   __devices_store: {63114b3a-f1e2-47c8-82d6-ccb09eedf869={__state_cache={}}, 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88={__state_cache={main={switch={switch={value="off"}}}}}, d08ce559-03ba-436e-bf69-73f8ce5c6e9d={__state_cache={main={switch={switch={value="off"}}}}}}
+2025-06-07T10:11:49.770207597Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Checking for orphaned device entries:
+2025-06-07T10:11:49.772273055Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   No orphaned entries found
+2025-06-07T10:11:49.772525514Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] =========================
+2025-06-07T10:11:49.773989514Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Context: Manual refresh command
+2025-06-07T10:11:49.774258639Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Creating child device for gateway
+2025-06-07T10:11:49.775423347Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Creating child device: child:test-gateway-001-3
+2025-06-07T10:11:49.806048347Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Child device creation requested: child:test-gateway-001-3
+2025-06-07T10:11:49.806326764Z DEBUG Datastore Debug Driver  IoT Solutions Gateway (Debug) device thread event handled
+2025-06-07T10:11:50.419580930Z TRACE Datastore Debug Driver  Received event with handler device_lifecycle
+2025-06-07T10:11:50.435801264Z INFO Datastore Debug Driver  <Device: 9b867ddb-eea6-4f65-849b-f95414d50e0e (Test Child 3)> received lifecycle event: added
+2025-06-07T10:11:50.438083889Z TRACE Datastore Debug Driver  Received event with handler device_lifecycle
+2025-06-07T10:11:50.442777389Z INFO Datastore Debug Driver  <Device: 9b867ddb-eea6-4f65-849b-f95414d50e0e (Test Child 3)> received lifecycle event: doConfigure
+2025-06-07T10:11:50.505116680Z TRACE Datastore Debug Driver  Found DeviceLifecycleDispatcher handler in datastore-debug-driver
+2025-06-07T10:11:50.507124722Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DEVICE ADDED =====
+2025-06-07T10:11:50.509687722Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device ID: 9b867ddb-eea6-4f65-849b-f95414d50e0e
+2025-06-07T10:11:50.509948555Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Label: Test Child 3
+2025-06-07T10:11:50.511425930Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device Network ID: 6305a23d-ce80-48b2-b4f2-b08d0f071629
+2025-06-07T10:11:50.511687014Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Parent ID: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:11:50.566059097Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Profile ID: 95ae8a8e-2d39-3f03-8f96-b9f4ad95ff79
+2025-06-07T10:11:50.566353389Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Added to DNI map: 6305a23d-ce80-48b2-b4f2-b08d0f071629
+2025-06-07T10:11:50.603117097Z INFO Datastore Debug Driver  <Device: 9b867ddb-eea6-4f65-849b-f95414d50e0e (Test Child 3)> emitting event: {"attribute_id":"switch","capability_id":"switch","component_id":"main","state":{"value":"off"}}
+2025-06-07T10:11:50.776361639Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Set initial switch state to OFF for child device
+2025-06-07T10:11:50.776853764Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DATASTORE DUMP =====
+2025-06-07T10:11:50.823145889Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Timestamp: 2025-06-07 10:11:50
+2025-06-07T10:11:50.955867847Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:11:50.963234764Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: IoT Solutions Gateway (Debug)
+2025-06-07T10:11:50.965641139Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: test-gateway-001
+2025-06-07T10:11:50.965919472Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 50fc1e32-5dd1-4852-86c7-162d73bd5f44
+2025-06-07T10:11:50.967076556Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: 9b867ddb-eea6-4f65-849b-f95414d50e0e
+2025-06-07T10:11:50.967719472Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: Test Child 3
+2025-06-07T10:11:50.969153806Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: 6305a23d-ce80-48b2-b4f2-b08d0f071629
+2025-06-07T10:11:50.969412556Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:11:50.970631472Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88
+2025-06-07T10:11:50.970884681Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: Test Child 1
+2025-06-07T10:11:51.066839889Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: a9efdd55-a63b-4c03-9985-9ce5811d505b
+2025-06-07T10:11:51.067198347Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:11:51.068522889Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: d08ce559-03ba-436e-bf69-73f8ce5c6e9d
+2025-06-07T10:11:51.068795472Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: Test Child 2
+2025-06-07T10:11:51.069915514Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: 5909d94c-bc39-4323-a853-b24375c28424
+2025-06-07T10:11:51.070186639Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:11:51.071609014Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Devices: 4
+2025-06-07T10:11:51.162075347Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Fields: 4
+2025-06-07T10:11:51.163477514Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Driver Datastore:
+2025-06-07T10:11:51.163757931Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   __devices_store: {63114b3a-f1e2-47c8-82d6-ccb09eedf869={__state_cache={}}, 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88={__state_cache={main={switch={switch={value="off"}}}}}, 9b867ddb-eea6-4f65-849b-f95414d50e0e={__state_cache={main={switch={switch={value="off"}}}}}, d08ce559-03ba-436e-bf69-73f8ce5c6e9d={__state_cache={main={switch={switch={value="off"}}}}}}
+2025-06-07T10:11:51.347785556Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Checking for orphaned device entries:
+2025-06-07T10:11:51.348042139Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   No orphaned entries found
+2025-06-07T10:11:51.402280556Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] =========================
+2025-06-07T10:11:51.402605639Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Context: After device added
+2025-06-07T10:11:51.447996181Z DEBUG Datastore Debug Driver  Test Child 3 device thread event handled
+2025-06-07T10:11:51.448260181Z DEBUG Datastore Debug Driver  <Device: 9b867ddb-eea6-4f65-849b-f95414d50e0e (Test Child 3)> added callback did not fail, executing init handler
+2025-06-07T10:11:51.449588306Z TRACE Datastore Debug Driver  Found DeviceLifecycleDispatcher handler in datastore-debug-driver
+2025-06-07T10:11:51.449854139Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DEVICE INIT =====
+2025-06-07T10:11:51.451004347Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device ID: 9b867ddb-eea6-4f65-849b-f95414d50e0e
+2025-06-07T10:11:51.451246181Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Label: Test Child 3
+2025-06-07T10:11:51.482894347Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Checking persistent fields...
+2025-06-07T10:11:51.483182764Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device initialization completed
+2025-06-07T10:11:51.593767764Z TRACE Datastore Debug Driver  Received event with handler device_lifecycle
+2025-06-07T10:11:51.594039639Z INFO Datastore Debug Driver  <Device: 63114b3a-f1e2-47c8-82d6-ccb09eedf869 (IoT Solutions Gateway (Debug))> received lifecycle event: infoChanged
+2025-06-07T10:11:51.603757639Z TRACE Datastore Debug Driver  Found DeviceLifecycleDispatcher handler in datastore-debug-driver
+2025-06-07T10:11:51.604011597Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DEVICE INIT =====
+2025-06-07T10:11:51.605144139Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device ID: 9b867ddb-eea6-4f65-849b-f95414d50e0e
+2025-06-07T10:11:51.605408014Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Label: Test Child 3
+2025-06-07T10:11:51.606449139Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Checking persistent fields...
+2025-06-07T10:11:51.607064514Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device initialization completed
+2025-06-07T10:11:51.654858972Z DEBUG Datastore Debug Driver  Test Child 3 device thread event handled
+2025-06-07T10:11:51.656644347Z DEBUG Datastore Debug Driver  <Device: 9b867ddb-eea6-4f65-849b-f95414d50e0e (Test Child 3)> doConfigure callback did not fail, transitioning device to "PROVISIONED"
+2025-06-07T10:11:51.668980347Z TRACE Datastore Debug Driver  <Device: 63114b3a-f1e2-47c8-82d6-ccb09eedf869 (IoT Solutions Gateway (Debug))> received unhandled lifecycle event: infoChanged
+2025-06-07T10:11:51.670995764Z DEBUG Datastore Debug Driver  IoT Solutions Gateway (Debug) device thread event handled
+2025-06-07T10:11:51.675718264Z DEBUG Datastore Debug Driver  Test Child 3 device thread event handled
+2025-06-07T10:11:51.676020847Z DEBUG Datastore Debug Driver  Test Child 3 device thread event handled
+2025-06-07T10:11:51.696901889Z DEBUG Datastore Debug Driver  Test Child 3 device thread event handled
+2025-06-07T10:11:52.162011806Z TRACE Datastore Debug Driver  Received event with handler device_lifecycle
+2025-06-07T10:11:52.162573389Z INFO Datastore Debug Driver  <Device: 9b867ddb-eea6-4f65-849b-f95414d50e0e (Test Child 3)> received lifecycle event: infoChanged
+2025-06-07T10:11:52.164444972Z TRACE Datastore Debug Driver  <Device: 9b867ddb-eea6-4f65-849b-f95414d50e0e (Test Child 3)> received unhandled lifecycle event: infoChanged
+2025-06-07T10:11:52.164705222Z DEBUG Datastore Debug Driver  Test Child 3 device thread event handled
+
+4. Periodic (every 120s) datastore dump says:
+
+2025-06-07T10:12:13.708785808Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DATASTORE DUMP =====
+2025-06-07T10:12:13.710823350Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Timestamp: 2025-06-07 10:12:13
+2025-06-07T10:12:13.726334350Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:12:13.728118767Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: IoT Solutions Gateway (Debug)
+2025-06-07T10:12:13.730688183Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: test-gateway-001
+2025-06-07T10:12:13.730948017Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 50fc1e32-5dd1-4852-86c7-162d73bd5f44
+2025-06-07T10:12:13.732469183Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: 9b867ddb-eea6-4f65-849b-f95414d50e0e
+2025-06-07T10:12:13.732717058Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: Test Child 3
+2025-06-07T10:12:13.733874933Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: 6305a23d-ce80-48b2-b4f2-b08d0f071629
+2025-06-07T10:12:13.734119850Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:12:13.735163017Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88
+2025-06-07T10:12:13.735404808Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: Test Child 1
+2025-06-07T10:12:13.736944308Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: a9efdd55-a63b-4c03-9985-9ce5811d505b
+2025-06-07T10:12:13.737298017Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:12:13.738804892Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: d08ce559-03ba-436e-bf69-73f8ce5c6e9d
+2025-06-07T10:12:13.739086683Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: Test Child 2
+2025-06-07T10:12:13.740220933Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: 5909d94c-bc39-4323-a853-b24375c28424
+2025-06-07T10:12:13.740470308Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:12:13.742166350Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Devices: 4
+2025-06-07T10:12:13.742510933Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Fields: 4
+2025-06-07T10:12:13.744540683Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Driver Datastore:
+2025-06-07T10:12:13.744875183Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   __devices_store: {63114b3a-f1e2-47c8-82d6-ccb09eedf869={__state_cache={}}, 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88={__state_cache={main={switch={switch={value="off"}}}}}, 9b867ddb-eea6-4f65-849b-f95414d50e0e={__state_cache={main={switch={switch={value="off"}}}}}, d08ce559-03ba-436e-bf69-73f8ce5c6e9d={__state_cache={main={switch={switch={value="off"}}}}}}
+2025-06-07T10:12:13.752733933Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Checking for orphaned device entries:
+2025-06-07T10:12:13.752989225Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   No orphaned entries found
+2025-06-07T10:12:13.754262308Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] =========================
+2025-06-07T10:12:13.754526517Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Context: Periodic check
+2025-06-07T10:12:13.755609683Z DEBUG Datastore Debug Driver  driver device thread event handled
+2025-06-07T10:12:15.791118892Z DEBUG Datastore Debug Driver  IoT Solutions Gateway (Debug) device thread event handled
+2025-06-07T10:12:15.892749850Z DEBUG Datastore Debug Driver  IoT Solutions Gateway (Debug) device thread event handled
+
+5. Test: Change state of Test child 2:
+
+2025-06-07T10:13:07.596958856Z TRACE Datastore Debug Driver  Received event with handler capability
+2025-06-07T10:13:07.603975856Z INFO Datastore Debug Driver  <Device: d08ce559-03ba-436e-bf69-73f8ce5c6e9d (Test Child 2)> received command: {"args":{},"capability":"switch","command":"on","component":"main","named_args":{},"positional_args":{}}
+2025-06-07T10:13:07.606928523Z TRACE Datastore Debug Driver  Found CapabilityCommandDispatcher handler in datastore-debug-driver
+2025-06-07T10:13:07.607208398Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Switch ON command for device: d08ce559-03ba-436e-bf69-73f8ce5c6e9d (Test Child 2)
+2025-06-07T10:13:07.608709065Z INFO Datastore Debug Driver  <Device: d08ce559-03ba-436e-bf69-73f8ce5c6e9d (Test Child 2)> emitting event: {"attribute_id":"switch","capability_id":"switch","component_id":"main","state":{"value":"on"}}
+2025-06-07T10:13:07.628153440Z DEBUG Datastore Debug Driver  Test Child 2 device thread event handled
+
+6. Periodic (every 120s) datastore dump says:
+
+2025-06-07T10:13:13.710609315Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DATASTORE DUMP =====
+2025-06-07T10:13:13.711097399Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Timestamp: 2025-06-07 10:13:13
+2025-06-07T10:13:13.742746357Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:13:13.744561149Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: IoT Solutions Gateway (Debug)
+2025-06-07T10:13:13.748241107Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: test-gateway-001
+2025-06-07T10:13:13.748536274Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 50fc1e32-5dd1-4852-86c7-162d73bd5f44
+2025-06-07T10:13:13.749786690Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: 9b867ddb-eea6-4f65-849b-f95414d50e0e
+2025-06-07T10:13:13.750036815Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: Test Child 3
+2025-06-07T10:13:13.751255274Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: 6305a23d-ce80-48b2-b4f2-b08d0f071629
+2025-06-07T10:13:13.751863024Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:13:13.759043149Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88
+2025-06-07T10:13:13.759313357Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: Test Child 1
+2025-06-07T10:13:13.760780440Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: a9efdd55-a63b-4c03-9985-9ce5811d505b
+2025-06-07T10:13:13.761084940Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:13:13.772635982Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: d08ce559-03ba-436e-bf69-73f8ce5c6e9d
+2025-06-07T10:13:13.772897774Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: Test Child 2
+2025-06-07T10:13:13.774170274Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: 5909d94c-bc39-4323-a853-b24375c28424
+2025-06-07T10:13:13.774424357Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:13:13.775581024Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Devices: 4
+2025-06-07T10:13:13.776196940Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Fields: 4
+2025-06-07T10:13:13.777628440Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Driver Datastore:
+2025-06-07T10:13:13.777912482Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   __devices_store: {63114b3a-f1e2-47c8-82d6-ccb09eedf869={__state_cache={}}, 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88={__state_cache={main={switch={switch={value="off"}}}}}, 9b867ddb-eea6-4f65-849b-f95414d50e0e={__state_cache={main={switch={switch={value="off"}}}}}, d08ce559-03ba-436e-bf69-73f8ce5c6e9d={__state_cache={main={switch={switch={value="on"}}}}}}
+2025-06-07T10:13:13.786200399Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Checking for orphaned device entries:
+2025-06-07T10:13:13.787977940Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   No orphaned entries found
+2025-06-07T10:13:13.791646024Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] =========================
+2025-06-07T10:13:13.791996315Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Context: Periodic check
+2025-06-07T10:13:13.793236315Z DEBUG Datastore Debug Driver  driver device thread event handled
+
+7. Deletion of gateway device (and here we trigger the "orphaned" issue):
+
+2025-06-07T10:13:51.761142445Z TRACE Datastore Debug Driver  Received event with handler device_lifecycle
+2025-06-07T10:13:51.761458070Z INFO Datastore Debug Driver  <Device: 63114b3a-f1e2-47c8-82d6-ccb09eedf869 (IoT Solutions Gateway (Debug))> received lifecycle event: removed
+2025-06-07T10:13:51.778451695Z TRACE Datastore Debug Driver  Found DeviceLifecycleDispatcher handler in datastore-debug-driver
+2025-06-07T10:13:51.778791237Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DEVICE REMOVED =====
+2025-06-07T10:13:51.780099903Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device ID: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:13:51.780369695Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Label: IoT Solutions Gateway (Debug)
+2025-06-07T10:13:51.781498528Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device Network ID: test-gateway-001
+2025-06-07T10:13:51.847212695Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Parent ID: 50fc1e32-5dd1-4852-86c7-162d73bd5f44
+2025-06-07T10:13:51.852908445Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DATASTORE DUMP =====
+2025-06-07T10:13:51.853172987Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Timestamp: 2025-06-07 10:13:51
+2025-06-07T10:13:52.956684862Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: 9b867ddb-eea6-4f65-849b-f95414d50e0e
+2025-06-07T10:13:52.957204278Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: Test Child 3
+2025-06-07T10:13:52.970391278Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: 6305a23d-ce80-48b2-b4f2-b08d0f071629
+2025-06-07T10:13:52.970660778Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:13:52.986204445Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88
+2025-06-07T10:13:52.987051778Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: Test Child 1
+2025-06-07T10:13:52.994801320Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: a9efdd55-a63b-4c03-9985-9ce5811d505b
+2025-06-07T10:13:52.995089278Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:13:52.996404570Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device: d08ce559-03ba-436e-bf69-73f8ce5c6e9d
+2025-06-07T10:13:52.996651987Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Label: Test Child 2
+2025-06-07T10:13:53.014017862Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Device Network ID: 5909d94c-bc39-4323-a853-b24375c28424
+2025-06-07T10:13:53.014291612Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   Parent: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:13:53.145108362Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Devices: 3
+2025-06-07T10:13:53.145362445Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Fields: 3
+2025-06-07T10:13:53.154533112Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Driver Datastore:
+2025-06-07T10:13:53.154809820Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   __devices_store: {63114b3a-f1e2-47c8-82d6-ccb09eedf869={__state_cache={}}, 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88={__state_cache={main={switch={switch={value="off"}}}}}, 9b867ddb-eea6-4f65-849b-f95414d50e0e={__state_cache={main={switch={switch={value="off"}}}}}, d08ce559-03ba-436e-bf69-73f8ce5c6e9d={__state_cache={main={switch={switch={value="on"}}}}}}
+2025-06-07T10:13:53.173015778Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Checking for orphaned device entries:
+2025-06-07T10:13:53.173290820Z WARN Datastore Debug Driver  [DATASTORE-DEBUG]   ORPHAN: d08ce559-03ba-436e-bf69-73f8ce5c6e9d (data still in __devices_store)
+2025-06-07T10:13:53.182332778Z WARN Datastore Debug Driver  [DATASTORE-DEBUG]   ORPHAN: 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88 (data still in __devices_store)
+2025-06-07T10:13:53.182628195Z WARN Datastore Debug Driver  [DATASTORE-DEBUG]   ORPHAN: 63114b3a-f1e2-47c8-82d6-ccb09eedf869 (data still in __devices_store)
+2025-06-07T10:13:53.183955612Z WARN Datastore Debug Driver  [DATASTORE-DEBUG]   ORPHAN: 9b867ddb-eea6-4f65-849b-f95414d50e0e (data still in __devices_store)
+2025-06-07T10:13:53.184207278Z WARN Datastore Debug Driver  [DATASTORE-DEBUG] Found 4 orphaned device entries in __devices_store!
+2025-06-07T10:13:53.185368028Z WARN Datastore Debug Driver  [DATASTORE-DEBUG] This indicates incomplete cleanup after device removal/crash
+2025-06-07T10:13:53.185635820Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] =========================
+2025-06-07T10:13:53.187069153Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Context: Before device removal
+2025-06-07T10:13:53.187391112Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Gateway removal - platform will handle child device cleanup automatically
+2025-06-07T10:13:53.188824195Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Removed from DNI map: test-gateway-001
+2025-06-07T10:13:53.189101945Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Completed device removal cleanup
+2025-06-07T10:13:53.213232903Z DEBUG Datastore Debug Driver  IoT Solutions Gateway (Debug) device thread event handled
+2025-06-07T10:13:53.213501112Z DEBUG Datastore Debug Driver  driver device thread event handled
+2025-06-07T10:13:53.230707653Z DEBUG Datastore Debug Driver  IoT Solutions Gateway (Debug) device thread event handled
+2025-06-07T10:13:53.230995195Z TRACE Datastore Debug Driver  Received event with handler device_lifecycle
+2025-06-07T10:13:53.232390362Z INFO Datastore Debug Driver  <Device: 9b867ddb-eea6-4f65-849b-f95414d50e0e (Test Child 3)> received lifecycle event: removed
+2025-06-07T10:13:53.261144528Z DEBUG Datastore Debug Driver  Test Child 3 device thread event handled
+2025-06-07T10:13:53.263083737Z TRACE Datastore Debug Driver  Received event with handler device_lifecycle
+2025-06-07T10:13:53.267841445Z INFO Datastore Debug Driver  <Device: d08ce559-03ba-436e-bf69-73f8ce5c6e9d (Test Child 2)> received lifecycle event: removed
+2025-06-07T10:13:53.268700028Z TRACE Datastore Debug Driver  Found DeviceLifecycleDispatcher handler in datastore-debug-driver
+2025-06-07T10:13:53.270051070Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DEVICE REMOVED =====
+2025-06-07T10:13:53.270316112Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device ID: 9b867ddb-eea6-4f65-849b-f95414d50e0e
+2025-06-07T10:13:53.271445278Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Label: Test Child 3
+2025-06-07T10:13:53.282550278Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device Network ID: 6305a23d-ce80-48b2-b4f2-b08d0f071629
+2025-06-07T10:13:53.283917320Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Parent ID: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:13:53.284169612Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DATASTORE DUMP =====
+2025-06-07T10:13:53.285315528Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Timestamp: 2025-06-07 10:13:53
+2025-06-07T10:13:53.320635862Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Devices: 0
+2025-06-07T10:13:53.322518612Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Fields: 0
+2025-06-07T10:13:53.331205653Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Driver Datastore:
+2025-06-07T10:13:53.331481445Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   __devices_store: {90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88={__state_cache={main={switch={switch={value="off"}}}}}, 9b867ddb-eea6-4f65-849b-f95414d50e0e={__state_cache={main={switch={switch={value="off"}}}}}, d08ce559-03ba-436e-bf69-73f8ce5c6e9d={__state_cache={main={switch={switch={value="on"}}}}}}
+2025-06-07T10:13:53.348406820Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Checking for orphaned device entries:
+2025-06-07T10:13:53.350202195Z WARN Datastore Debug Driver  [DATASTORE-DEBUG]   ORPHAN: d08ce559-03ba-436e-bf69-73f8ce5c6e9d (data still in __devices_store)
+2025-06-07T10:13:53.359698945Z WARN Datastore Debug Driver  [DATASTORE-DEBUG]   ORPHAN: 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88 (data still in __devices_store)
+2025-06-07T10:13:53.359978362Z WARN Datastore Debug Driver  [DATASTORE-DEBUG]   ORPHAN: 9b867ddb-eea6-4f65-849b-f95414d50e0e (data still in __devices_store)
+2025-06-07T10:13:53.361262278Z WARN Datastore Debug Driver  [DATASTORE-DEBUG] Found 3 orphaned device entries in __devices_store!
+2025-06-07T10:13:53.361508612Z WARN Datastore Debug Driver  [DATASTORE-DEBUG] This indicates incomplete cleanup after device removal/crash
+2025-06-07T10:13:53.362795278Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] =========================
+2025-06-07T10:13:53.363045820Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Context: Before device removal
+2025-06-07T10:13:53.364474987Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Removed from DNI map: 6305a23d-ce80-48b2-b4f2-b08d0f071629
+2025-06-07T10:13:53.364725653Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Completed device removal cleanup
+2025-06-07T10:13:53.372673362Z DEBUG Datastore Debug Driver  Test Child 3 device thread event handled
+2025-06-07T10:13:53.372938987Z DEBUG Datastore Debug Driver  driver device thread event handled
+2025-06-07T10:13:53.386734445Z DEBUG Datastore Debug Driver  Test Child 3 device thread event handled
+2025-06-07T10:13:53.388491320Z TRACE Datastore Debug Driver  Received event with handler device_lifecycle
+2025-06-07T10:13:53.390404362Z INFO Datastore Debug Driver  <Device: 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88 (Test Child 1)> received lifecycle event: removed
+2025-06-07T10:13:53.392009903Z TRACE Datastore Debug Driver  Found DeviceLifecycleDispatcher handler in datastore-debug-driver
+2025-06-07T10:13:53.393789487Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DEVICE REMOVED =====
+2025-06-07T10:13:53.394043570Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device ID: d08ce559-03ba-436e-bf69-73f8ce5c6e9d
+2025-06-07T10:13:53.396079445Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Label: Test Child 2
+2025-06-07T10:13:53.396364362Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device Network ID: 5909d94c-bc39-4323-a853-b24375c28424
+2025-06-07T10:13:53.398379653Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Parent ID: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:13:53.398657195Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DATASTORE DUMP =====
+2025-06-07T10:13:53.400706653Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Timestamp: 2025-06-07 10:13:53
+2025-06-07T10:13:53.407386862Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Devices: 0
+2025-06-07T10:13:53.407644695Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Fields: 0
+2025-06-07T10:13:53.408881612Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Driver Datastore:
+2025-06-07T10:13:53.409150612Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   __devices_store: {90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88={__state_cache={main={switch={switch={value="off"}}}}}, d08ce559-03ba-436e-bf69-73f8ce5c6e9d={__state_cache={main={switch={switch={value="on"}}}}}}
+2025-06-07T10:13:53.427282778Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Checking for orphaned device entries:
+2025-06-07T10:13:53.427547570Z WARN Datastore Debug Driver  [DATASTORE-DEBUG]   ORPHAN: d08ce559-03ba-436e-bf69-73f8ce5c6e9d (data still in __devices_store)
+2025-06-07T10:13:53.428828778Z WARN Datastore Debug Driver  [DATASTORE-DEBUG]   ORPHAN: 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88 (data still in __devices_store)
+2025-06-07T10:13:53.429087778Z WARN Datastore Debug Driver  [DATASTORE-DEBUG] Found 2 orphaned device entries in __devices_store!
+2025-06-07T10:13:53.430253028Z WARN Datastore Debug Driver  [DATASTORE-DEBUG] This indicates incomplete cleanup after device removal/crash
+2025-06-07T10:13:53.430865237Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] =========================
+2025-06-07T10:13:53.432355903Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Context: Before device removal
+2025-06-07T10:13:53.432625362Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Removed from DNI map: 5909d94c-bc39-4323-a853-b24375c28424
+2025-06-07T10:13:53.434647778Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Completed device removal cleanup
+2025-06-07T10:13:53.447069820Z DEBUG Datastore Debug Driver  Test Child 2 device thread event handled
+2025-06-07T10:13:53.449042278Z DEBUG Datastore Debug Driver  driver device thread event handled
+2025-06-07T10:13:53.450939528Z TRACE Datastore Debug Driver  Found DeviceLifecycleDispatcher handler in datastore-debug-driver
+2025-06-07T10:13:53.451193028Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DEVICE REMOVED =====
+2025-06-07T10:13:53.452725362Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device ID: 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88
+2025-06-07T10:13:53.453002778Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Label: Test Child 1
+2025-06-07T10:13:53.454159570Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Device Network ID: a9efdd55-a63b-4c03-9985-9ce5811d505b
+2025-06-07T10:13:53.454427112Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Parent ID: 63114b3a-f1e2-47c8-82d6-ccb09eedf869
+2025-06-07T10:13:53.455859862Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] ===== DATASTORE DUMP =====
+2025-06-07T10:13:53.456184445Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Timestamp: 2025-06-07 10:13:53
+2025-06-07T10:13:53.463352778Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Devices: 0
+2025-06-07T10:13:53.463625195Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Total Fields: 0
+2025-06-07T10:13:53.465428570Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Driver Datastore:
+2025-06-07T10:13:53.465725028Z INFO Datastore Debug Driver  [DATASTORE-DEBUG]   __devices_store: {90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88={__state_cache={main={switch={switch={value="off"}}}}}, d08ce559-03ba-436e-bf69-73f8ce5c6e9d={__state_cache={main={switch={switch={value="on"}}}}}}
+2025-06-07T10:13:53.473559403Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Checking for orphaned device entries:
+2025-06-07T10:13:53.475724028Z WARN Datastore Debug Driver  [DATASTORE-DEBUG]   ORPHAN: d08ce559-03ba-436e-bf69-73f8ce5c6e9d (data still in __devices_store)
+2025-06-07T10:13:53.475984612Z WARN Datastore Debug Driver  [DATASTORE-DEBUG]   ORPHAN: 90f57a28-f8f5-4e7e-b9a0-bf15a42e3a88 (data still in __devices_store)
+2025-06-07T10:13:53.477309528Z WARN Datastore Debug Driver  [DATASTORE-DEBUG] Found 2 orphaned device entries in __devices_store!
+2025-06-07T10:13:53.477585862Z WARN Datastore Debug Driver  [DATASTORE-DEBUG] This indicates incomplete cleanup after device removal/crash
+2025-06-07T10:13:53.478722070Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] =========================
+2025-06-07T10:13:53.478985570Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Context: Before device removal
+2025-06-07T10:13:53.479992570Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Removed from DNI map: a9efdd55-a63b-4c03-9985-9ce5811d505b
+2025-06-07T10:13:53.480254403Z INFO Datastore Debug Driver  [DATASTORE-DEBUG] Completed device removal cleanup
+2025-06-07T10:13:53.487864320Z DEBUG Datastore Debug Driver  Test Child 1 device thread event handled
+2025-06-07T10:13:53.488138570Z TRACE Datastore Debug Driver  Received event with handler driver_lifecycle
+2025-06-07T10:13:53.489597987Z FATAL Datastore Debug Driver  Driver called os.exit with code 0
+
