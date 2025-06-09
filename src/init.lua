@@ -236,15 +236,9 @@ local function _device_init(driver, device)
 
   -- Simply log that device initialization completed
   log.info(string.format("%s Device initialization completed", PREFIX))
-
-  -- Schedule periodic health updates
-  device.thread:call_on_schedule(
-    HEALTH_CHECK_INTERVAL,
-    function()
-      device:online()
-    end,
-    "health_update_timer"
-  )
+  
+  -- REMOVED: Health check timer completely to test if it's causing orphans
+  log.info(string.format("%s [NO-TIMER-TEST] Skipping health check timer setup", PREFIX))
 end
 
 --------------------------------------------------------------------------------
