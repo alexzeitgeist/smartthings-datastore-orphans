@@ -237,11 +237,17 @@ local function _device_init(driver, device)
   -- Simply log that device initialization completed
   log.info(string.format("%s Device initialization completed", PREFIX))
 
-  -- Schedule periodic health updates
+  -- Schedule periodic health updates using weak reference pattern
+  -- to prevent device object from being captured in closure
+  local weak = setmetatable({
+    device = device
+  }, {__mode = "kv"})
+  
   device.thread:call_on_schedule(
     HEALTH_CHECK_INTERVAL,
     function()
-      device:online()
+      if not weak.device then return end
+      weak.device:online()
     end,
     "health_update_timer"
   )
